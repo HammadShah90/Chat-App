@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#mainui {
+    background-color: #61d2d8;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fmainui {
+    background-image: url(./Images/wp9101801.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 750px;
+    border: 8px solid rgb(44, 136, 143);
+    border-radius: 40px;
+}
+
+.smainui {
+    background-image: url(./Images/wp9101801.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 750px;
+    border: 8px solid rgb(44, 136, 143);
+    border-radius: 40px;
+    position: relative;
+}
+
+.fheaderui {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.ftime {
+    color: rgb(255, 255, 255);
+}
+
+.img1 {
+    width: 20px;
+    height: 20px;
+}
+
+.charging {
+    width: 24px;
+    height: 18px;
+}
+
+.sheaderui {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchmsg {
+    padding-bottom: 5px;
+    width: 30px;
+    height: 32px;
+}
+
+.ftopui {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Mtotal {
+    color: white;
+    padding: 0px 5px;
+}
+
+.fmiddleui {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.frdlist a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.frdlist a h4:hover {
+    color: rgb(246, 153, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 0px 5px;
+    font-size: 15px;
+}
+
+.ffootui {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    height: 583px;
+    border-bottom: 1px solid grey;
+}
+
+.wclient {
+    display: flex;
+}
+
+.clientpic img {
+    width: 65px;
+    height: 65px;
+    padding: 15px 0px 0px 15px;
+    margin-bottom: 10px;
+}
+
+.client1 {
+    font-weight: bold;
+    padding-top: 19px;
+    padding-left: 8px;
+    position: relative;
+}
+
+.clienttime {
+    font-size: 11px;
+    position: absolute;
+    left: 230px;
+    top: 42px;
+}
+
+.clientmsg {
+    font-size: 12px;
+}
+
+.line {
+    margin: 0px 15px;
+    color: rgb(190, 190, 190);
+}
+
+.backarrow img {
+    width: 15px;
+    height: 15px;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.client-userpic img {
+    width: 40px;
+    height: 40px;
+}
+
+.callicon img {
+    width: 20px;
+    height: 20px;
+}
+
+.client-username {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.shortfont {
+    font-size: 12px;
+}
+
+.menudot img {
+    width: 40px;
+    height: 20px;
+}
+
+.stopui {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftcontent {
+    display: flex;
+}
+
+.rightcontent {
+    display: flex;
+    margin-top: 10px;
+}
+
+.textbox {
+    background-color: white;
+    padding: 15px;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.textboxtimeL {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 21px;
+    margin-right: 21px;
+    font-size: 12px;
+}
+
+.textboxtimeR {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 21px;
+    margin-right: 21px;
+    font-size: 12px;
+}
+
+.textboxleft {
+    color: rgb(194, 136, 28);
+    border-top-left-radius: 0;
+}
+
+.textboxright {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(51, 48, 255);
+    border-top-right-radius: 0;
+}
+
+#textarea {
+    background-color: rgb(255, 255, 255);
+    color: #6292e6;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 15px 25px;
+    margin: 0 15px;
+}
+
+#textarea input {
+    background: transparent;
+    border: none;
+    color: #c69acf;
+    width: 100%;
+}
+
+#textarea input::placeholder {
+    color: #c69acf;
+}
+
+#textarea input:focus {
+    outline: none;
+}
+
+/* .textboxuser {
+    position: relative;
+    left: 230px;
+} */
+
+.chatright {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chatleft {
+    display: flex;
+    justify-content: flex-start;
+}
